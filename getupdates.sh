@@ -23,9 +23,9 @@ echo "$host" > $red
 exit
 
 #!bin/bash
-sshpass -p "bumble.b33" scp -r bob@hostname.fqdn.com:/var/updates/$host.ok /var/updates/$host.ok
-sshpass -p "bumble.b33" scp -r bob@hostname.fqdn.com:/var/updates/$host.required /var/updates/$host.required
-sshpass -p "bumble.b33" scp -r bob@hostname.fqdn.com:/var/updates/$host.error /var/updates/$host.error
+sshpass -p "passw0rd scp -r bob@hostname.fqdn.com:/var/updates/$host.ok /var/updates/$host.ok
+sshpass -p "passw0rd.b33" scp -r bob@hostname.fqdn.com:/var/updates/$host.required /var/updates/$host.required
+sshpass -p "passw0rd.b33" scp -r bob@hostname.fqdn.com:/var/updates/$host.error /var/updates/$host.error
 
 #!/bin/bash
 $hosts = "gnat-dev", "web"
